@@ -1,0 +1,10 @@
+# Renombrar este archivo a backend.tf y completar los valores si utilizarás
+# un backend remoto de Terraform en Azure Storage.
+terraform {
+  backend "azurerm" {
+    resource_group_name  = "rg-terraform-state"
+    storage_account_name = "stterraformstate001"
+    container_name       = "tfstate"
+    key                  = "analytics-migration.tfstate"
+  }
+}
