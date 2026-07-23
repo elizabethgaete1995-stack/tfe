@@ -15,7 +15,7 @@ synapse_sql_administrator_login = "sqladminuser"
 
 # Entregar la contraseña por variable de entorno, no guardarla aquí:
 # PowerShell:
-# $env:TF_VAR_synapse_sql_administrator_password = "ContraseñaSegura"
+synapse_sql_administrator_password = "2LPu8xLQ8Dt34CK9GDFokzs"
 
 # Ajustar estos valores luego de confirmar la configuración real del ambiente origen.
 synapse_managed_virtual_network_enabled = false
